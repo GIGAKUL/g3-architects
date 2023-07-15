@@ -5,12 +5,12 @@
   header {
     padding: 20px;
   }
-  
+
   ul {
     padding-top: 5px;
     gap: 20px;
   }
-  nav {
+  nav ,.team-container {
     flex-direction: column;
   }
   ul li a {
@@ -30,6 +30,28 @@
   .banner-row img {
     margin-top: 10px;
   }
+
+  /* teams section */
+
+  main{
+    margin: 20px 20px;
+  }
+  .team-img-container img{
+    width: 100%;
+
+  }
+  .team-img-container {
+    grid-template-columns:  1fr;
+    margin: 0 20px;
+
+  }
+  .team-description {
+    width: auto;
+   
+}
+.team-content h3 {
+    width: auto;
+}
 }
 
 /* ---------------------Tablet ------------------------*/
@@ -68,4 +90,23 @@
   .banner-row img {
     margin-top: 50px;
   }
+   /* teams section */
+
+   main{
+    margin: 20px 20px;
+  }
+  .team-img-container img{
+    width: 200px;
+
+  }
+  .team-img-container {
+    grid-template-columns:  repeat(2,1fr);
+  }
+  .team-description {
+    width: auto;
+   
+}
+.team-content h3 {
+    width: auto;
+}
 }
