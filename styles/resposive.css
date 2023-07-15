@@ -1,11 +1,11 @@
 @media screen and (max-width: 576px) {
+  * {
+    font-size: 12px;
+  }
   header {
     padding: 20px;
   }
-
-  nav h3 {
-    font-size: 1.5rem;
-  }
+  
   ul {
     padding-top: 5px;
     gap: 20px;
@@ -14,8 +14,6 @@
     flex-direction: column;
   }
   ul li a {
-    font-size: 1rem;
-
     margin-left: 0px;
   }
   .banner-content h1 {
@@ -34,16 +32,17 @@
   }
 }
 
-/* Tablet */
+/* ---------------------Tablet ------------------------*/
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
+  * {
+    font-size: 16px;
+  }
+
   header {
     padding: 50px;
   }
 
-  nav h3 {
-    font-size: 2rem;
-  }
   ul {
     padding-top: 5px;
     gap: 50px;
@@ -52,8 +51,6 @@
     flex-direction: column;
   }
   ul li a {
-    font-size: 1rem;
-
     margin-left: 0px;
   }
   .banner-content h1 {
