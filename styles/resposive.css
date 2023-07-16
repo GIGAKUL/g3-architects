@@ -102,6 +102,10 @@
   .sponsors{
     margin-top: 50px;
   }
+  footer{
+    width: 280px;
+    padding: 40px;
+  }
 }
 
 /* ---------------------Tablet ------------------------*/
@@ -184,5 +188,7 @@
   .feature-p{
     margin-bottom: 50px;
   }
-
+  footer{
+    width: 700px;
+  }
 }

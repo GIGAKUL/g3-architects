@@ -244,3 +244,16 @@ main {
 .sponsors-img-container img {
   width: 164px;
 }
+footer{
+  width: 1440px;
+  padding: 40px 0;
+  margin: 130px auto;
+  border-radius: 8px;
+  background: #FFF4E7;
+  text-align: center;
+}
+.small2{
+color: #424242;
+font-size: 20px;
+font-weight: 400;
+}
