@@ -27,7 +27,7 @@ a {
   border: none;
   cursor: pointer;
 }
-.section-title{
+.section-title {
   color: #131313;
   font-size: 2.8rem;
   font-weight: 700;
@@ -51,7 +51,7 @@ ul li a {
   color: #424242;
   font-size: 1.1em;
   font-weight: 500;
-  line-height: 26px;
+  line-height: 1.625rem;
   margin-left: 60px;
 }
 /* Banner styles */
@@ -70,7 +70,7 @@ ul li a {
 .banner-content p {
   color: #727272;
   font-size: 1rem;
-  line-height: 26px;
+  line-height: 1.625rem;
   margin: 32px 0;
 }
 .banner-row img {
@@ -108,7 +108,7 @@ main {
   width: 537px;
   color: #727272;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.625rem;
   margin: 2rem 0;
 }
 .span1 {
@@ -121,4 +121,60 @@ main {
   color: #ff900e;
   font-size: 2.8rem;
   font-weight: 700;
+}
+
+/* facts section */
+.facts {
+  margin: 8.125rem 0 11.25rem 0;
+}
+.facts-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+.facts-card-container .card {
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #ff900e;
+  padding: 2.5rem 1.87rem;
+}
+.card-stats {
+  font-size: 2.8rem;
+  color: #424242;
+  font-weight: 600;
+  margin: 0.62rem 0 0 0;
+}
+
+.card-title {
+  color: #727272;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.facts-p {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  width: 542px;
+  margin: 1.5rem 0 6.25rem;
+}
+
+/* sponsors styles */
+.sponsors {
+  text-align: center;
+}
+.sponsors-p {
+  width: auto;
+  color: #727272;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  margin: 1.5rem 0 3.126rem 0;
+}
+.sponsors-img-container{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  align-items: center;
+}
+.sponsors-img-container img {
+  width: 164px;
 }
