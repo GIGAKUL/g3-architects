@@ -55,6 +55,9 @@ ul li a {
   margin-left: 60px;
 }
 /* Banner styles */
+.banner{
+ margin-top: 116px;
+}
 .banner-row {
   text-align: center;
 }
@@ -122,6 +125,69 @@ main {
   font-size: 2.8rem;
   font-weight: 700;
 }
+/* feature section styles */
+.features {
+  margin: 8.125rem 0 0 0;
+  display: flex;
+  gap: 9.125rem;
+}
+.feature-content h3 {
+  border-left: 5px solid #ff900e;
+  padding-left: 1.3125rem;
+  margin-bottom: 1.5rem;
+}
+.feature-content p {
+  color: #727272;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+
+.badge {
+  text-align: center;
+  border-radius: 8px;
+  background: #ff900e;
+  width: 342px;
+  position: relative;
+  right: 76px;
+  bottom: 110px;
+}
+
+.badge h2 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.375rem;
+  padding: 40px 40px 10px 40px;
+  margin: 0;
+}
+.badge p {
+  color: #FFF;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  padding-bottom: 40px;
+}
+
+.feature-card {
+  padding: 1.875rem 2.5rem;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.feature-card h4 {
+  color: #131313;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.feature-card p {
+  color: #727272;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
 
 /* facts section */
 .facts {
@@ -169,7 +235,7 @@ main {
   line-height: 1.625rem;
   margin: 1.5rem 0 3.126rem 0;
 }
-.sponsors-img-container{
+.sponsors-img-container {
   display: flex;
   justify-content: space-evenly;
   gap: 40px;
